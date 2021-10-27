@@ -257,18 +257,15 @@ print(new_df)</code></pre>
   num = 1
   
   while (num &lt;= n){
-    if (num %% 2 == 0){
-      jumlah = jumlah + 1
-    }
+      jumlah = jumlah + num
     num = num + 1
   }
-  
   return(jumlah)
   
 }
 
 sum_n(5000)</code></pre>
-<pre><code>## [1] 2500</code></pre>
+<pre><code>## [1] 12502500</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li>Buat fungsi <code>compute_s_n</code> yang dapat digunakan untuk menghitung jumlah Sn = 1<sup>2</sup> + 2<sup>2</sup> + 3<sup>2</sup> + …<em>n</em><sup>2</sup>. Tampilkan hasil penjumlahan <em>n</em>=10.</li>
 </ol>

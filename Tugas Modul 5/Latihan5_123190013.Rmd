@@ -4,8 +4,8 @@ author: "Ahmad Abdullah Azzam"
 date: "10/27/2021"
 output:
   word_document: default
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -46,12 +46,9 @@ sum_n <- function(n){
   num = 1
   
   while (num <= n){
-    if (num %% 2 == 0){
-      jumlah = jumlah + 1
-    }
+      jumlah = jumlah + num
     num = num + 1
   }
-  
   return(jumlah)
   
 }
